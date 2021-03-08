@@ -1,0 +1,18 @@
+CREATE  TABLE  stg_trading_trans
+(
+KEY_VALUE		INT64,
+ARR_ID			INT64, 
+Snapshot_DATE		DATE,
+Snapshot_Date_ID	INT64,
+Limit			NUMERIC, 
+Limit_GBP 		NUMERIC,
+Balance			NUMERIC,
+Balance_GBP   		NUMERIC,
+BI_INSERT_DATE		DTAE,
+BI_UPDATE_DATE		DATE,
+Undrawn_amount		NUMERIC, 
+Undrawn_amount_GBP	NUMERIC, 
+Cleared_Balance		NUMERIC,
+Cleared_Balance_GBP 	NUMERIC,
+)  PRIMARY  KEY (KEY_VALUE)
+

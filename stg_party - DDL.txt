@@ -1,0 +1,18 @@
+CREATE  TABLE  stg_party
+(
+KEY_VALUE		INT64,
+Party_source_Code	INT64,
+PARTY_NAME 		STRING(100),
+PARTY_TYPE 		STRING(100),
+Start_date		DATE , 
+End_Date		DATE , 
+domain			STRING(100),
+year_founded		INT64,
+industry		STRING(100),
+size range		STRING(100),
+locality		STRING(100),
+country			STRING(100),
+linkedin_url		STRING(100),
+curr_emp_estimate	STRING(100),
+total_emp		STRING(100),
+)  PRIMARY  KEY (KEY_VALUE)

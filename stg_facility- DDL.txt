@@ -1,0 +1,14 @@
+CREATE  TABLE  stg_facility
+(
+KEY_VALUE		INT64,
+Facility_Source_code 	STRING(100),
+Facility_name 		STRING(100),
+Facility_Type		STRING(100),
+Currency_Code		STRING(100),
+Start_date		DATE , 
+End_Date		DATE , 
+Year_I			INT64,
+Facility_second_type	STRING(100),
+Country			STRING(100),
+
+)  PRIMARY  KEY (KEY_VALUE)

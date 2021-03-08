@@ -1,0 +1,13 @@
+CREATE  TABLE  stg_fac_x_party 
+(
+KEY_VALUE	  INT64,
+PARTY_FAC_CODE	  INT64,
+PARTY_ID  	  INT64,
+FACILITY_ID  	  INT64, 
+Start_date	  DATE , 
+End_Date	  DATE  , 
+Code	  	  INT64
+Descriptor  	  STRING(100),
+)  PRIMARY  KEY (KEY_VALUE)
+
+	

@@ -1,0 +1,15 @@
+CREATE  TABLE  stg_arrangement
+(
+KEY_VALUE		INT64,
+Arr_Source_code 	INT64,
+Source_System_CD	STRING(100),
+MATURITY_DATE_ID 	DATE,
+PAYMENT_TYPE_ID 	INT64,
+ACCOUNT_FLAG 		STRING(5),
+LARGE_PRINT_IDICATOR 	INT64,
+Start_date		DATE , 
+End_Date		DATE , 
+Code			INT64,
+Descriptor		string(100),
+
+)  PRIMARY  KEY (KEY_VALUE)

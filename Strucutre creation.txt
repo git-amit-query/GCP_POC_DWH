@@ -1,0 +1,39 @@
+gcloud projects create tcs_demo_01 --name="tcs_demo_rdw"   
+
+
+
+-- To set the project ID  -------
+gcloud config set project qwiklabs-gcp-04-c3836c0a88ae
+
+
+-- CREATE Bucket  
+gsutil mb -c STANDARD -l EUROPE-WEST2 gs://tcs_demo_12032023
+
+
+-- Cloning the Github Library ---
+git clone https://github.com/git-amit-query/GCP_POC_DWH
+
+
+
+--  Creating Folder in Bucket  ---- 
+gsutil cp README-cloudshell.txt gs://tcs_demo_12032023/inbound/
+gsutil cp README-cloudshell.txt gs://tcs_demo_12032023/outbound/
+gsutil cp README-cloudshell.txt gs://tcs_demo_12032023/Error_out/
+gsutil cp README-cloudshell.txt gs://tcs_demo_12032023/Processed/ 
+
+
+
+--CReating Dataset for Bigquery : 
+bq --location=europe-west2  mk -d --default_table_expiration 3600 --description "This is my dataset." stg_dataset
+
+
+bq --location=europe-west2  mk -d --default_table_expiration 3600 --description "This is my dataset." rdw_dwh
+
+
+bq --location=europe-west2  mk -d --default_table_expiration 3600 --description "This is my dataset." rdw_dm
+
+
+fa
+
+
+

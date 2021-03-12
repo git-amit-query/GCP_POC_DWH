@@ -1,0 +1,17 @@
+[
+{ "name": "KEY_VALUE","type":"INT"},
+{ "name": "Party_source_Code","type":"INT"},
+{ "name": "PARTY_NAME ","type":"STRING"},
+{ "name": "PARTY_TYPE ","type":"STRING"},
+{ "name": "Start_date","type":"DATE"},
+{ "name": "End_Date","type":"DATE"},
+{ "name": "domain","type":"STRING"},
+{ "name": "year_founded","type":"INT"},
+{ "name": "industry","type":"STRING"},
+{ "name": "size range","type":"STRING"},
+{ "name": "locality","type":"STRING"},
+{ "name": "country","type":"STRING"},
+{ "name": "linkedin_url","type":"STRING"},
+{ "name": "curr_emp_estimate","type":"STRING"},
+{ "name": "total_emp","type":"STRING"}
+]
